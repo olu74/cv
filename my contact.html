@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+  </head>
+  <body>
+    <<h3>My Contact Details</h3>
+    <p>Email: oluwaseun.edward@unil.ch</p>
+    <p>Telephone: +41 (0) 21692 43 34</p>
+    <hr>
+
+<!-- Now we want to create a contact form on the website. We use the form tag to achieve this-->
+    <form action="mailto:info@wilksedward.com" method="post" enctype="text/plain">
+      <!--The mailto value in action makes sure that the form is sent to an email
+      address using the native email app on the computer being used. We also choose
+      an encoding type by defining it up there..enctype=... -->
+      <label>Your Name:</label>
+      <input type="text" name="Name"><br>
+      <label>Your Email:</label>
+      <input type="email" name="Email"><br>
+      <label>Your Message:</label><br>
+      <textarea name="Message" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
